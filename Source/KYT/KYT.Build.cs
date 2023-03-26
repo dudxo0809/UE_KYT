@@ -8,7 +8,22 @@ public class KYT : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { 
+			"Core", 
+			"CoreUObject", 
+			"Engine", 
+			"InputCore",
+			"AIModule",
+			"GameplayTasks",
+			"NavigationSystem",
+			"UMG",
+			"Niagara",
+			"MovieScene",
+			"LevelSequence",
+			"MediaAssets"
+
+
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
